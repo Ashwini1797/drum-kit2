@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+    background-image: url("drum.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    opacity: 0.8;
+
+}
+  
+h1 {
+    font-size: 5rem;
+    color: #DBEDF3;
+    font-family: "Sofia", sans-serif;
+    text-shadow: 2px 2px 5px rgb(153, 151, 151);
+}
+  
+  
+.all {
+    width: 50%;
+    margin: 5% auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+  
+
+  
+.button {
+    outline: none;
+    border: 10px solid #b2b4b8;
+    font-size: 50px;
+    font-family: "Sofia", sans-serif;
+    line-height: 1;
+    font-weight: 900;
+    color: #080808;
+    text-shadow: 2px 2px 5px rgb(78, 77, 77);
+    border-radius: 15px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 30px;
+    background-color: white;
+}
